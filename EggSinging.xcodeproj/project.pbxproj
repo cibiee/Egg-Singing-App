@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F510EB2B174E15E00041CF88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EB2A174E15E00041CF88 /* UIKit.framework */; };
+		F510EB2D174E15E00041CF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EB2C174E15E00041CF88 /* Foundation.framework */; };
+		F510EB2F174E15E00041CF88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EB2E174E15E00041CF88 /* CoreGraphics.framework */; };
+		F510EB35174E15E00041CF88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F510EB33174E15E00041CF88 /* InfoPlist.strings */; };
+		F510EB37174E15E00041CF88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EB36174E15E00041CF88 /* main.m */; };
+		F510EB3B174E15E00041CF88 /* ESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EB3A174E15E00041CF88 /* ESAppDelegate.m */; };
+		F510EB3D174E15E00041CF88 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EB3C174E15E00041CF88 /* Default.png */; };
+		F510EB3F174E15E00041CF88 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EB3E174E15E00041CF88 /* Default@2x.png */; };
+		F510EB41174E15E00041CF88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EB40174E15E00041CF88 /* Default-568h@2x.png */; };
+		F510EB44174E15E00041CF88 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F510EB42174E15E00041CF88 /* MainStoryboard.storyboard */; };
+		F510EB47174E15E00041CF88 /* ESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EB46174E15E00041CF88 /* ESViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F510EB27174E15E00041CF88 /* EggSinging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggSinging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F510EB2A174E15E00041CF88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F510EB2C174E15E00041CF88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F510EB2E174E15E00041CF88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F510EB32174E15E00041CF88 /* EggSinging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggSinging-Info.plist"; sourceTree = "<group>"; };
+		F510EB34174E15E00041CF88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F510EB36174E15E00041CF88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F510EB38174E15E00041CF88 /* EggSinging-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EggSinging-Prefix.pch"; sourceTree = "<group>"; };
+		F510EB39174E15E00041CF88 /* ESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESAppDelegate.h; sourceTree = "<group>"; };
+		F510EB3A174E15E00041CF88 /* ESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESAppDelegate.m; sourceTree = "<group>"; };
+		F510EB3C174E15E00041CF88 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F510EB3E174E15E00041CF88 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F510EB40174E15E00041CF88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F510EB43174E15E00041CF88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F510EB45174E15E00041CF88 /* ESViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESViewController.h; sourceTree = "<group>"; };
+		F510EB46174E15E00041CF88 /* ESViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F510EB24174E15E00041CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EB2B174E15E00041CF88 /* UIKit.framework in Frameworks */,
+				F510EB2D174E15E00041CF88 /* Foundation.framework in Frameworks */,
+				F510EB2F174E15E00041CF88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F510EB1E174E15E00041CF88 = {
+			isa = PBXGroup;
+			children = (
+				F510EB30174E15E00041CF88 /* EggSinging */,
+				F510EB29174E15E00041CF88 /* Frameworks */,
+				F510EB28174E15E00041CF88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F510EB28174E15E00041CF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F510EB27174E15E00041CF88 /* EggSinging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F510EB29174E15E00041CF88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F510EB2A174E15E00041CF88 /* UIKit.framework */,
+				F510EB2C174E15E00041CF88 /* Foundation.framework */,
+				F510EB2E174E15E00041CF88 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F510EB30174E15E00041CF88 /* EggSinging */ = {
+			isa = PBXGroup;
+			children = (
+				F510EB39174E15E00041CF88 /* ESAppDelegate.h */,
+				F510EB3A174E15E00041CF88 /* ESAppDelegate.m */,
+				F510EB42174E15E00041CF88 /* MainStoryboard.storyboard */,
+				F510EB45174E15E00041CF88 /* ESViewController.h */,
+				F510EB46174E15E00041CF88 /* ESViewController.m */,
+				F510EB31174E15E00041CF88 /* Supporting Files */,
+			);
+			path = EggSinging;
+			sourceTree = "<group>";
+		};
+		F510EB31174E15E00041CF88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F510EB32174E15E00041CF88 /* EggSinging-Info.plist */,
+				F510EB33174E15E00041CF88 /* InfoPlist.strings */,
+				F510EB36174E15E00041CF88 /* main.m */,
+				F510EB38174E15E00041CF88 /* EggSinging-Prefix.pch */,
+				F510EB3C174E15E00041CF88 /* Default.png */,
+				F510EB3E174E15E00041CF88 /* Default@2x.png */,
+				F510EB40174E15E00041CF88 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F510EB26174E15E00041CF88 /* EggSinging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F510EB4A174E15E00041CF88 /* Build configuration list for PBXNativeTarget "EggSinging" */;
+			buildPhases = (
+				F510EB23174E15E00041CF88 /* Sources */,
+				F510EB24174E15E00041CF88 /* Frameworks */,
+				F510EB25174E15E00041CF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggSinging;
+			productName = EggSinging;
+			productReference = F510EB27174E15E00041CF88 /* EggSinging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F510EB1F174E15E00041CF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ES;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Bridge;
+			};
+			buildConfigurationList = F510EB22174E15E00041CF88 /* Build configuration list for PBXProject "EggSinging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F510EB1E174E15E00041CF88;
+			productRefGroup = F510EB28174E15E00041CF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F510EB26174E15E00041CF88 /* EggSinging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F510EB25174E15E00041CF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EB35174E15E00041CF88 /* InfoPlist.strings in Resources */,
+				F510EB3D174E15E00041CF88 /* Default.png in Resources */,
+				F510EB3F174E15E00041CF88 /* Default@2x.png in Resources */,
+				F510EB41174E15E00041CF88 /* Default-568h@2x.png in Resources */,
+				F510EB44174E15E00041CF88 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F510EB23174E15E00041CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EB37174E15E00041CF88 /* main.m in Sources */,
+				F510EB3B174E15E00041CF88 /* ESAppDelegate.m in Sources */,
+				F510EB47174E15E00041CF88 /* ESViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F510EB33174E15E00041CF88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F510EB34174E15E00041CF88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F510EB42174E15E00041CF88 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F510EB43174E15E00041CF88 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F510EB48174E15E00041CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F510EB49174E15E00041CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F510EB4B174E15E00041CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggSinging/EggSinging-Prefix.pch";
+				INFOPLIST_FILE = "EggSinging/EggSinging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F510EB4C174E15E00041CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggSinging/EggSinging-Prefix.pch";
+				INFOPLIST_FILE = "EggSinging/EggSinging-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F510EB22174E15E00041CF88 /* Build configuration list for PBXProject "EggSinging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510EB48174E15E00041CF88 /* Debug */,
+				F510EB49174E15E00041CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F510EB4A174E15E00041CF88 /* Build configuration list for PBXNativeTarget "EggSinging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510EB4B174E15E00041CF88 /* Debug */,
+				F510EB4C174E15E00041CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F510EB1F174E15E00041CF88 /* Project object */;
+}
